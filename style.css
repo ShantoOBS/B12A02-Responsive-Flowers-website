@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-NotoSerif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/*  share style */
+
+.m-width {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.share-title-color {
+    color: #E95A08;
+}
+
+
+
+/* naver style */
+
+.navbar {
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.home {
+    color: #252432;
+    font-weight: bold;
+}
+
+.shop {
+    color: #8987A1;
+}
+
+.cart {
+
+    color: #000000;
+}
+
+ul {
+    gap: 48px;
+    align-items: center;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+}
+
+/*  banner style */
+
+.banner-container {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.banner-title {
+    font-size: 4.1rem;
+    font-weight: bold;
+    margin: 0px;
+
+}
+
+.banner-dis {
+    margin-top: 13px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-img{
+   
+  width: 100%;
+ 
+}
+
+
+
+/*  media queary  for 576px*/
+
+@media screen and (max-width: 576px) {
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .home,
+    .shop {
+        display: none;
+    }
+
+    br{
+         display: none;
+    }
+
+}
+
+
+/*  media queary  for 576 ot px*/
+
+@media screen and (min-width:577px) and (max-width: 951px) {
+
+   
+
+}
+
+
