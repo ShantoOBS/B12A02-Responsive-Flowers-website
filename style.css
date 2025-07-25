@@ -25,6 +25,17 @@
 }
 
 
+.btn-primary{
+
+      background-color: #E95A08;
+      font-size: 1rem;
+      font-weight: 600;
+      color: white;
+      padding: 19px 80px;
+      border: none;
+      width: 100%;
+}
+
 
 /* naver style */
 
@@ -67,6 +78,7 @@ ul>li>a {
     align-items: center;
     justify-content: space-between;
     margin: 0px;
+    margin-bottom: 120px;
 }
 
 .banner-title {
@@ -89,11 +101,46 @@ ul>li>a {
  
 }
 
+/* plant style */
+
+.plant-container{
+    text-align: center;
+     width: 100%;
+}
+
+.card-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    margin-top: 49px;
+   
+}
+.card-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card-price{
+     font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.card-img{
+     width: 100%;
+} 
+
 
 
 /*  media queary  for 576px*/
 
 @media screen and (max-width: 576px) {
+
+    .card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 
     .banner-container {
         flex-direction: column-reverse;
@@ -116,7 +163,9 @@ ul>li>a {
 @media screen and (min-width:577px) and (max-width: 951px) {
 
    
-
+       .card-container{
+        grid-template-columns: repeat(3,1fr);
+    }
 }
 
 
