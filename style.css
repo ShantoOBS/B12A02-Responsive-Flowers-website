@@ -294,13 +294,15 @@ ul>li>a {
     background-repeat: no-repeat;
 
     width: 100%;
-    min-height: 20vh;
+    min-height: 50vh;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+   
 }
 
 .join-container {
@@ -347,6 +349,10 @@ ul>li>a {
 /*  media queary  for 576px*/
 
 @media screen and (max-width: 576px) {
+
+    .join{
+            margin-top: 202px;
+    }
 
      .footer{
      grid-template-columns: repeat(1 , 1fr);
@@ -440,7 +446,7 @@ ul>li>a {
 }
 
 
-/*  media queary  for 576 ot px*/
+/*  media queary  for 576 ot 951px*/
 
 @media screen and (min-width:577px) and (max-width: 951px) {
 
