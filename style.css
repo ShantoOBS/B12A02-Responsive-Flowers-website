@@ -320,20 +320,38 @@ ul>li>a {
     padding-left: 20px;
 }
 
+/*  footer style */
+
+.footer{
+     display: grid;
+     grid-template-columns: repeat(4 ,1fr);
+     gap: 180px;
+     margin-top: 120px;
+}
+.footer-col-4{
+     gap:24px;
+}
+
+.footer-col-3 > ul >li , .footer-col-2 > ul >li{
+     margin: 32px 0px;
+     color: #6B7280;
+}
+
+.footer-col-4 > img{
+     width: 36px;
+     height: 36px;
+}
+
 
 
 /*  media queary  for 576px*/
 
 @media screen and (max-width: 576px) {
 
-    .deal-img-container {
-  
-        
-    margin-bottom: 1200px;
-
-   }
-
-   
+     .footer{
+     grid-template-columns: repeat(1 , 1fr);
+     gap:0px;
+     }
 
     #input-search {
 
@@ -426,7 +444,7 @@ ul>li>a {
 
 @media screen and (min-width:577px) and (max-width: 951px) {
 
-
+   
     .card-container {
         grid-template-columns: repeat(3, 1fr);
     }
